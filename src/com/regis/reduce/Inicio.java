@@ -45,19 +45,6 @@ public class Inicio {
 		
 		
 		// ----------------------------------------------------------------------
-
-		
-		// reduce concatenação
-		System.out.println("reduce - concatenação");
-		
-		Optional<String> concatenacao = listaStr.stream()
-				.reduce((s1, s2) -> s1.concat(s2));
-		System.out.println(concatenacao.get());
-		
-		System.out.println("---");
-		
-		
-		// ----------------------------------------------------------------------
 		
 		// reduce - menor valor
 		System.out.println("reduce - menor valor");
